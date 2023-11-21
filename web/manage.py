@@ -1,7 +1,8 @@
 #!/usr/bin/python2
 
+from __future__ import print_function
 import sys
-print sys.path
+print(sys.path)
 from tupa.dia2django import luoMallienRungot
 from django.core.management import execute_manager
 
